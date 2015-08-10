@@ -1,5 +1,5 @@
 PODS:
-  - JBLoginDataCommands (0.1.0)
+  - JBLoginDataCommands (0.1.1)
   - Kiwi (2.3.1)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JBLoginDataCommands: 8dc68046929a7c8cbcb102a584ff10638b290f32
+  JBLoginDataCommands: 5810b555e4524aae125de42ddfea0eaf4f5d63b4
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
 
 COCOAPODS: 0.38.2

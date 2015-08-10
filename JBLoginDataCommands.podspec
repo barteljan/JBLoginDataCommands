@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JBLoginDataCommands"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Some protocols for formalizing the login process of an login view."
   s.description      = <<-DESC
                        Some protocols for formalizing the login process of an login view (have a look at JBLoginView).
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Jan Bartel" => "jan.bartel@atino.de" }
   s.source           = { :git => "https://github.com/barteljan/JBLoginDataCommands.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/janbartel'
+  s.social_media_url = 'https://twitter.com/janbartel'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
     'JBLoginDataCommands' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.h'
 end
