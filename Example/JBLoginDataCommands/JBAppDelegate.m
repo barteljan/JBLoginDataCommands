@@ -7,11 +7,13 @@
 //
 
 #import "JBAppDelegate.h"
+#import "JBLoginCommand.h"
 
 @implementation JBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    JBLoginCommand *command = [[JBLoginCommand alloc] init];
     // Override point for customization after application launch.
     return YES;
 }

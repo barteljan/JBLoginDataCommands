@@ -1,0 +1,17 @@
+PODS:
+  - JBLoginDataCommands (0.1.2)
+  - Kiwi (2.3.1)
+
+DEPENDENCIES:
+  - JBLoginDataCommands (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  JBLoginDataCommands:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JBLoginDataCommands: 10ff4e15a7ed14d1f944832a54a8cf2de171794e
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+
+COCOAPODS: 0.38.2

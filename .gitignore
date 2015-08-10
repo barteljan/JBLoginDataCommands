@@ -1,3 +1,9 @@
+Example/JBLoginDataCommands.xcworkspace/*
+Example/.idea/*
+.idea/*
+Example/Pods/*
+Example/JBLoginDataCommands.xcodeproj/xcshareddata/*
+
 # OS X
 .DS_Store
 
