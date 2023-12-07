@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JBLoginDataCommands"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "Some protocols for formalizing the login process of an login view."
   s.description      = <<-DESC
                        Some protocols for formalizing the login process of an login view (have a look at JBLoginView).
@@ -24,10 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'JBLoginDataCommands' => ['Pod/Assets/*.png']
-  }
-
+  
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
