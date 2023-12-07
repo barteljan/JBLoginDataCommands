@@ -20,10 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		63B953C9A63C5F9E196EECC2 /* Pods_JBLoginDataCommands_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEAE7CF67E53D6598B7F133 /* Pods_JBLoginDataCommands_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		67BABB431B325084C7FEF4FE /* Pods_JBLoginDataCommands_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F931612BAE2B44255B24D6 /* Pods_JBLoginDataCommands_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9A9A2E5D1B78BA01002DD689 /* JBLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A2E5C1B78BA01002DD689 /* JBLoginCommand.m */; };
-		9EC3203A120D143B9043FEA3 /* Pods_JBLoginDataCommands_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510AB2F0ACA398B4FF75CCA6 /* Pods_JBLoginDataCommands_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ADE67941B9CE296519BD0E9F /* Pods_JBLoginDataCommands_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613110A107E2920547EA0CB8 /* Pods_JBLoginDataCommands_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20B174A49BFF40602E7A2C7D /* Pods-JBLoginDataCommands_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DEAE7CF67E53D6598B7F133 /* Pods_JBLoginDataCommands_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBLoginDataCommands_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C60D717E8432064A11D0765 /* Pods-JBLoginDataCommands_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		510AB2F0ACA398B4FF75CCA6 /* Pods_JBLoginDataCommands_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBLoginDataCommands_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6C5F30720C595B078BDFA5 /* Pods-JBLoginDataCommands_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A791FD87663BC6CF09DFC48 /* Pods-JBLoginDataCommands_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Tests.release.xcconfig"; path = "Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JBLoginDataCommands_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBLoginDataCommands_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,14 +58,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		74A3C49DD6B2CDD7BCBE61E9 /* JBLoginDataCommands.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JBLoginDataCommands.podspec; path = ../JBLoginDataCommands.podspec; sourceTree = "<group>"; };
-		838C54FF08BCA23F7CF1AA0E /* Pods-JBLoginDataCommands_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		613110A107E2920547EA0CB8 /* Pods_JBLoginDataCommands_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBLoginDataCommands_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A3C49DD6B2CDD7BCBE61E9 /* JBLoginDataCommands.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JBLoginDataCommands.podspec; path = ../JBLoginDataCommands.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9A9A2E5B1B78BA01002DD689 /* JBLoginCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLoginCommand.h; sourceTree = "<group>"; };
 		9A9A2E5C1B78BA01002DD689 /* JBLoginCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLoginCommand.m; sourceTree = "<group>"; };
-		9D7D710784CCF1F5FDA774CB /* Pods-JBLoginDataCommands_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6362D374FD7404E901130D1 /* Pods-JBLoginDataCommands_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Example.release.xcconfig"; path = "Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D781C2DFD6A18B6542DBE0B4 /* Pods-JBLoginDataCommands_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBLoginDataCommands_Example.debug.xcconfig"; path = "Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DEB32BEB34A3435ABD065496 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E66DD6B74E0D66B101DF9FDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6F931612BAE2B44255B24D6 /* Pods_JBLoginDataCommands_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBLoginDataCommands_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9EC3203A120D143B9043FEA3 /* Pods_JBLoginDataCommands_Example.framework in Frameworks */,
+				ADE67941B9CE296519BD0E9F /* Pods_JBLoginDataCommands_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,22 +89,22 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				63B953C9A63C5F9E196EECC2 /* Pods_JBLoginDataCommands_Tests.framework in Frameworks */,
+				67BABB431B325084C7FEF4FE /* Pods_JBLoginDataCommands_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36B599C12B0FDD9D28935B4A /* Pods */ = {
+		19436E0212FF4BFDF6A2FFE0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				838C54FF08BCA23F7CF1AA0E /* Pods-JBLoginDataCommands_Example.debug.xcconfig */,
-				20B174A49BFF40602E7A2C7D /* Pods-JBLoginDataCommands_Example.release.xcconfig */,
-				9D7D710784CCF1F5FDA774CB /* Pods-JBLoginDataCommands_Tests.debug.xcconfig */,
-				3C60D717E8432064A11D0765 /* Pods-JBLoginDataCommands_Tests.release.xcconfig */,
+				D781C2DFD6A18B6542DBE0B4 /* Pods-JBLoginDataCommands_Example.debug.xcconfig */,
+				D6362D374FD7404E901130D1 /* Pods-JBLoginDataCommands_Example.release.xcconfig */,
+				2F6C5F30720C595B078BDFA5 /* Pods-JBLoginDataCommands_Tests.debug.xcconfig */,
+				3A791FD87663BC6CF09DFC48 /* Pods-JBLoginDataCommands_Tests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -115,7 +115,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				36B599C12B0FDD9D28935B4A /* Pods */,
+				19436E0212FF4BFDF6A2FFE0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,8 +135,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				510AB2F0ACA398B4FF75CCA6 /* Pods_JBLoginDataCommands_Example.framework */,
-				2DEAE7CF67E53D6598B7F133 /* Pods_JBLoginDataCommands_Tests.framework */,
+				613110A107E2920547EA0CB8 /* Pods_JBLoginDataCommands_Example.framework */,
+				F6F931612BAE2B44255B24D6 /* Pods_JBLoginDataCommands_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,12 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "JBLoginDataCommands_Example" */;
 			buildPhases = (
-				9A7F4E3BEBBDE8D8536761C9 /* Check Pods Manifest.lock */,
+				3B62727C57F4346D36910692 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B87FC3128CB1ECE8EE1F18BE /* Embed Pods Frameworks */,
-				4A6FBBB1FFF240C3BCFD8486 /* Copy Pods Resources */,
+				C4CDBE9C895881A75E23DBC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,12 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "JBLoginDataCommands_Tests" */;
 			buildPhases = (
-				7F3DCB88ECA92D301BF9970C /* Check Pods Manifest.lock */,
+				14049FD7CD7F1D4807D5A17E /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1A22B9B4430CCDC874AE3B2E /* Embed Pods Frameworks */,
-				97C3C3F3A7B6B392835E2A9F /* Copy Pods Resources */,
+				CEB4006C5C59D8AB816948F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -298,94 +297,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A22B9B4430CCDC874AE3B2E /* Embed Pods Frameworks */ = {
+		14049FD7CD7F1D4807D5A17E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JBLoginDataCommands_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4A6FBBB1FFF240C3BCFD8486 /* Copy Pods Resources */ = {
+		3B62727C57F4346D36910692 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JBLoginDataCommands_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F3DCB88ECA92D301BF9970C /* Check Pods Manifest.lock */ = {
+		C4CDBE9C895881A75E23DBC2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JBLoginDataCommands/JBLoginDataCommands.framework",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBLoginDataCommands.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		97C3C3F3A7B6B392835E2A9F /* Copy Pods Resources */ = {
+		CEB4006C5C59D8AB816948F0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JBLoginDataCommands/JBLoginDataCommands.framework",
+				"${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBLoginDataCommands.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kiwi.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A7F4E3BEBBDE8D8536761C9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B87FC3128CB1ECE8EE1F18BE /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBLoginDataCommands_Example/Pods-JBLoginDataCommands_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JBLoginDataCommands_Tests/Pods-JBLoginDataCommands_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -514,13 +505,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 838C54FF08BCA23F7CF1AA0E /* Pods-JBLoginDataCommands_Example.debug.xcconfig */;
+			baseConfigurationReference = D781C2DFD6A18B6542DBE0B4 /* Pods-JBLoginDataCommands_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JBLoginDataCommands/JBLoginDataCommands-Prefix.pch";
 				INFOPLIST_FILE = "JBLoginDataCommands/JBLoginDataCommands-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -529,13 +521,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20B174A49BFF40602E7A2C7D /* Pods-JBLoginDataCommands_Example.release.xcconfig */;
+			baseConfigurationReference = D6362D374FD7404E901130D1 /* Pods-JBLoginDataCommands_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JBLoginDataCommands/JBLoginDataCommands-Prefix.pch";
 				INFOPLIST_FILE = "JBLoginDataCommands/JBLoginDataCommands-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -544,7 +537,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D7D710784CCF1F5FDA774CB /* Pods-JBLoginDataCommands_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2F6C5F30720C595B078BDFA5 /* Pods-JBLoginDataCommands_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -559,6 +552,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBLoginDataCommands_Example.app/JBLoginDataCommands_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -567,7 +561,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C60D717E8432064A11D0765 /* Pods-JBLoginDataCommands_Tests.release.xcconfig */;
+			baseConfigurationReference = 3A791FD87663BC6CF09DFC48 /* Pods-JBLoginDataCommands_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -578,6 +572,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBLoginDataCommands_Example.app/JBLoginDataCommands_Example";
 				WRAPPER_EXTENSION = xctest;

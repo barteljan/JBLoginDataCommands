@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JBLoginDataCommands"
-  s.version          = "0.1.5"
+  s.version          = "0.2.0"
   s.summary          = "Some protocols for formalizing the login process of an login view."
   s.description      = <<-DESC
                        Some protocols for formalizing the login process of an login view (have a look at JBLoginView).
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/barteljan/JBLoginDataCommands.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/janbartel'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '13.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

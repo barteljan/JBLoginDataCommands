@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'JBLoginDataCommands_Example', :exclusive => true do
+target 'JBLoginDataCommands_Example' do
   pod "JBLoginDataCommands", :path => "../"
 end
 
-target 'JBLoginDataCommands_Tests', :exclusive => true do
+target 'JBLoginDataCommands_Tests' do
   pod "JBLoginDataCommands", :path => "../"
 
   pod 'Kiwi'
